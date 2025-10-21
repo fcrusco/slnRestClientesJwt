@@ -15,28 +15,6 @@ Recurso único: **Cliente** (`Id`, `Nome`, `Sobrenome`). **Sem banco de dados** 
 
 ---
 
-## 🧱 Estrutura do Projeto
-```
-RestClientesJwt/
-  Program.cs
-  appsettings.json
-  Controllers/
-    v1/
-      AuthController.cs
-      ClientesController.cs
-  Models/
-    Cliente.cs
-  Services/
-    InMemoryStore.cs
-    TokenService.cs
-  appsettings.Development.json
-  launchSettings.json
-```
-
-![Estrutura do projeto](./project-structure.png)
-
----
-
 ## 🧭 RESTful
 - **Recursos & URIs estáveis:** `/api/v1/clientes`, `/api/v1/clientes/{id}`  
 - **Verbos HTTP:** `GET` (ler), `POST` (criar), `PUT` (atualizar total), `DELETE` (remover)  
